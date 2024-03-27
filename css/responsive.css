@@ -1,0 +1,142 @@
+@media screen and (max-width: 805px) {
+
+    /* header */
+
+    header.bg-header {
+        display: none;
+    }
+
+    /* home */
+
+    section.bg-home {
+        padding: 5rem 1%;
+    }
+
+    section .home-content {
+        flex-direction: column-reverse;
+    }
+
+    section .home-content .home-title {
+        text-align: center;
+        margin-top: 1.225rem;
+    }
+
+    section .home-content .contact-home {
+        justify-content: center;
+        margin-top: 0.625rem;
+    }
+
+    /* about */
+
+    section.bg-about {
+        padding: 5rem 1%;
+    }
+
+    section .about-content {
+        flex-direction: column-reverse;
+        gap: 2.225rem;
+    }
+
+    section .about-title {
+        text-align: center;
+    }
+
+    /* skill */
+
+    section.bg-skill {
+        padding: 5rem 1%;
+    }
+
+    section .skill-content {
+        flex-direction: column;
+    }
+
+    /* project */
+
+    section.bg-project {
+        padding: 5rem 1%;
+    }
+
+    section .project-content {
+        flex-direction: column;
+        gap: 2.225rem;
+    }
+
+    /* footer */
+
+    footer .footer-content {
+        flex-direction: column;
+        gap: 0.925rem;
+    }
+}
+
+@media screen and (max-width: 385px) {
+
+    /* home */
+
+    section .home-content .home-title h1 {
+        font-size: 1.625rem;
+    }
+
+    section .home-content .home-title h1 span {
+        font-size: 1.225rem;
+    }
+
+    section .home-content .contact-home {
+        gap: 5.725rem;
+    }
+
+    section .home-content .contact-home .gmail-home i {
+        padding: 0.50rem 0.50rem;
+    }
+
+    section .home-content .contact-home .github-home i {
+        padding: 0.50rem 0.20rem;
+    }
+
+    /* about */
+
+    section .about-title h2 {
+        font-size: 1.325rem;
+    }
+
+    section .about-title p {
+        font-size: 0.9725rem;
+    }
+
+    /* skill */
+
+    section .skill-content {
+        padding: 0.825rem;
+    }
+
+    section .skill-content .skill-box h4 {
+        font-size: 0.825rem;
+        margin-bottom: 0.5rem;
+    }
+
+    section .skill-right .percent {
+        width: 16rem;
+    }
+
+    section .skill-left .percent {
+        width: 16rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    /* footer */
+
+    footer .footer-title h2 {
+        font-size: 1.025rem;
+    }
+
+    footer .footer-content .contact-footer .gmail-footer i {
+        padding: 0.50rem 0.50rem;
+    }
+
+    footer .footer-content .contact-footer .github-footer i {
+        padding: 0.50rem 0.20rem;
+    }
+}

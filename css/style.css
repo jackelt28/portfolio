@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-style: normal;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: #ffffff;
+    font-family: "JetBrains Mono";
+    font-family: "Poppins";
+}
+
+body {
+    background-color: #151d27;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.interface {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+/* header */
+
+header.bg-header {
+    background: #263241;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.225rem 1%;
+    z-index: 10;
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-content .logo-header a {
+    font-family: "JetBrains Mono";
+    color: #00a8e0;
+    font-size: 1.225rem;
+    font-weight: 500;
+    letter-spacing: 0.025rem;
+    transition: 0.2s ease;
+}
+
+header .header-content .logo-header a:hover {
+    color: #ffffff;
+    transition: 0.2s ease;
+}
+
+header .nav-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.225rem;
+}
+
+header .nav-links ul li a {
+    font-family: "JetBrains Mono";
+    font-size: 0.9625rem;
+    font-weight: 500;
+    letter-spacing: 0.025rem;
+    transition: 0.2s ease;
+}
+
+header .nav-links ul li a:hover {
+    color: #00a8e0;
+    transition: 0.2s ease;
+}
+
+/* home */
+
+section.bg-home {
+    padding: 10rem 1%;
+}
+
+section .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .home-content .home-title h2 {
+    color: #00a8e0;
+    font-size: 1.225rem;
+    font-weight: 300;
+    letter-spacing: 0.125rem;
+    margin-bottom: 0.325rem;
+}
+
+section .home-content .home-title h1 {
+    font-size: 2.125rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+
+section .home-content .home-title h1 span {
+    color: #00a8e0;
+    font-size: 1.425rem;
+    font-weight: 300;
+    letter-spacing: 0.125rem;
+}
+
+section .home-content .contact-home {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 6.95rem;
+    margin-top: 0.425rem;
+}
+
+section .home-content .contact-home i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #263241;
+    font-size: 1.625rem;
+    font-weight: 300;
+    border-radius: 0.125rem;
+    transition: 0.2s ease;
+}
+
+section .home-content .contact-home i:hover {
+    background-color: #00a8e0;
+    transition: 0.2s ease;
+}
+
+section .home-content .contact-home .gmail-home i {
+    padding: 0.50rem 0.70rem;
+}
+
+section .home-content .contact-home .github-home i {
+    padding: 0.50rem 0.40rem;
+}
+
+section .home-content .contact-home span {
+    font-size: 0.9825rem;
+    margin-left: 0.525rem;
+}
+
+section .home-content .home-logo img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 18rem;
+    border-radius: 0.325rem;
+}
+
+/* about */
+
+section.bg-about {
+    padding: 10rem 1%;
+}
+
+section .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.525rem;
+}
+
+section .tab-about {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+section .tab-about h2 {
+    font-weight: 500;
+}
+
+section .tab-about h3 {
+    margin-top: 2.25rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+section .about-title h2 {
+    margin-bottom: 0.825rem;
+}
+
+section .about-content .about-title h2 span {
+    color: #00a8e0;
+}
+
+section .about-content .about-title p {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+section .about-content .about-title p span {
+    color: #00a8e0;
+}
+
+section .about-content .about-title .profile-about {
+    margin-top: 1.225rem;
+}
+
+section .about-content .about-title .profile-about h4 {
+    font-weight: 400;
+    margin-top: 0.225rem;
+}
+
+section .about-content .about-title .profile-about span {
+    color: #00a8e0;
+}
+
+section .about-content .about-title .profile-about a span {
+    text-decoration: underline;
+    transition: 0.2s ease;
+}
+
+section .about-content .about-title .profile-about a span:hover {
+    color: #ffffff;
+    transition: 0.2s ease;
+}
+
+section .about-content .repository-btn button {
+    background-color: #263241;
+    color: #ffffff;
+    font-size: 0.825rem;
+    margin-top: 1.225rem;
+    font-weight: 300;
+    padding: 0.625rem 0.625rem;
+    border-radius: 0.125rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+section .about-content .repository-btn button:hover {
+    background-color: #00a8e0;
+    transition: 0.2s ease;
+}
+
+section .about-content .about-logo img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 18rem;
+    border-radius: 0.325rem;
+}
+
+/* skill */
+
+section.bg-skill {
+    padding: 10rem 1%;
+}
+
+section .tab-skill {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+section .tab-skill h2 {
+    font-weight: 500;
+}
+
+section .tab-skill h3 {
+    margin-top: 2.25rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+section .skill-content {
+    background-color: #263241;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.25rem;
+    border-radius: 0.125rem;
+}
+
+section .skill-content .skill-box {
+    margin-top: 1.425rem;
+    margin-bottom: 1.425rem;
+}
+
+section .skill-content .skill-box .percent-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .skill-content .skill-box h4 {
+    font-size: 0.825rem;
+    margin-bottom: 0.5rem;
+}
+
+section .skill-content .skill-box h5 {
+    font-size: 0.825rem;
+    margin-bottom: 0.5rem;
+}
+
+section .skill-right .percent {
+    position: relative;
+    width: 20rem;
+    height: 0.5rem;
+    border-radius: 0.125rem;
+    background-color: #ffffff;
+}
+
+section .skill-left .percent {
+    position: relative;
+    width: 20rem;
+    height: 0.5rem;
+    border-radius: 0.125rem;
+    background-color: #ffffff;
+}
+
+section .skill-right .percent span {
+    position: absolute;
+    height: 100%;
+    border-radius: 0.125rem;
+    background-color: #00a8e0;
+}
+
+section .skill-left .percent span {
+    position: absolute;
+    height: 100%;
+    border-radius: 0.125rem;
+    background-color: #00a8e0;
+}
+
+/* project */
+
+section.bg-project {
+    padding: 10rem 1%;
+}
+
+section .tab-project {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+section .tab-project h2 {
+    font-weight: 500;
+}
+
+section .tab-project h3 {
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+section .project-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .project-content .img-proj {
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 0.125rem;
+    border: 0.125rem solid #00a8e0;
+}
+
+section .project-content .overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    background-color: #263241;
+    font-size: 1.625rem;
+    font-weight: 700;
+    opacity: 0.95;
+    transition: 0.2s ease;
+}
+
+section .project-content .overlay:hover {
+    background-color: #151d27ec;
+    opacity: 0.95;
+    transition: 0.2s ease;
+}
+
+/* footer */
+
+footer.bg-footer {
+    background-color: #263241;
+    padding: 1.225rem 1%;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer-title h2 {
+    font-family: "JetBrains Mono";
+    font-weight: 500;
+    font-size: 1.225rem;
+}
+
+footer .footer-title h2 span {
+    font-weight: 300;
+    transition: 0.2s ease;
+}
+
+footer .footer-title h2 a span:hover {
+    color: #00a8e0;
+    transition: 0.2s ease;
+}
+
+footer .footer-content .contact-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.825rem;
+}
+
+footer .footer-content .contact-footer i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #151d27;
+    font-size: 1.625rem;
+    font-weight: 300;
+    border-radius: 0.125rem;
+    transition: 0.2s ease;
+}
+
+footer .footer-content .contact-footer i:hover {
+    background-color: #00a8e0;
+    transition: 0.2s ease;
+}
+
+footer .footer-content .contact-footer .gmail-footer i {
+    padding: 0.50rem 0.70rem;
+}
+
+footer .footer-content .contact-footer .github-footer i {
+    padding: 0.50rem 0.40rem;
+}
+
+footer .footer-content .contact-footer span {
+    font-size: 0.9825rem;
+    margin-left: 0.525rem;
+}
+
+/* webkit-scrollbar */
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+    background-color: #151d27;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #263241;
+}
